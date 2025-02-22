@@ -14,9 +14,6 @@ class HorseTest {
         assertEquals("Name cannot be null.", e.getMessage());
     }
 
-    // 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!СКОРРЕКТИРОВАТЬ НАЗВАНИЕ МЕТОДОВ!!!!!!!!!!!!!!!!!!!!!!!!1
-    // 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!смотри комментарий внизу!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
-
     @ParameterizedTest
     @ValueSource(strings = {"", " ", "   ", "\t", "\n"})
     void blankNameException(String name) {

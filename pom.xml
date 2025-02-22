@@ -30,10 +30,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!--зависимоти для тестов
-        -для логов:
-        -коре + апи + селфончик-->
-
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
